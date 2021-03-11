@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2620948d-7d23-491b-99d8-e5e8069338d4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="bece2c3f-87fb-4fd1-b3e8-0320aee20223" />
+  </component>
+  <component name="ProjectId" id="1pNHhz5KsFtwb2WPQlRFvMDJ7z5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wow11\pf\assets\img\showrim" />
+      <recent name="C:\Users\wow11\pf\assets\img\app" />
+      <recent name="C:\Users\wow11\pf\assets\img\web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wow11\pf\assets\img\showrim" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2620948d-7d23-491b-99d8-e5e8069338d4" name="Default Changelist" comment="" />
+      <created>1615016751121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615016751121</updated>
+      <workItem from="1615016752306" duration="1275000" />
+      <workItem from="1615179115961" duration="641000" />
+      <workItem from="1615179766866" duration="6208000" />
+      <workItem from="1615188486433" duration="805000" />
+      <workItem from="1615205264592" duration="134000" />
+      <workItem from="1615244346001" duration="10588000" />
+      <workItem from="1615332872337" duration="11901000" />
+      <workItem from="1615365462153" duration="3972000" />
+      <workItem from="1615369801091" duration="1951000" />
+      <workItem from="1615425712702" duration="12856000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
