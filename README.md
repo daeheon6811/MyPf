@@ -1,7 +1,5 @@
 # One Page Template
 
-![dark](https://i.ibb.co/GH46HqQ/One-Page-Templat.png)
-![dark](https://i.ibb.co/VvYYKPw/One-Page-Templat-dark.png)
 
 데모(DEMO): http://kijepark.com/template
 
