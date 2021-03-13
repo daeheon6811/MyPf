@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
     <link rel="stylesheet" href="css/theme.css" type="text/css"/>
     <link rel="stylesheet" href="css/theme-dark.css" media="(prefers-color-scheme: dark)" type="text/css">
+
 </head>
 <body>
 <!-- Header 시작 -->
@@ -111,7 +112,7 @@
                         <tr>
                             <th class="table-title" scope="col">Android 운동/건강 관리 App</th>
                             <td>
-                                <div>짐,홈, 트레이닝 집에서! , 보건소에 갈 필요 없는 인바디 상세한 측정,야외 활동 할 수 있는 무료 칼로리측정 , 소통을 위한 게시판!</div>
+                                <div>짐,홈, 트레이닝 집에서! , 인바디 상세한 측정, GPS 무료 칼로리측정 , 소통을 위한 게시판!</div>
                                 <div>
                                     #Playstore #Google
                                 </div>
@@ -144,7 +145,7 @@
                         <i class="bi bi-file-earmark-slides"></i>
                         <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="Modal1Label"
                              aria-hidden="true">
-                          <div class="modal-dialog" style="max-width: 40%; width: auto; display: table;">
+                          <div class="modal-dialog" style=" width: 100%; height: 100%; display: table;">
                             <div class="modal-content">
                               <div class="modal-header">
                                 <h5 class="modal-title" id="Modal1Label">개발 프로젝트 증빙 자료</h5>
@@ -222,7 +223,7 @@
                               </div>
                               <div class="modal-body">
                                   <!--위치저장2-->
-                                <img src="assets/img/showrim/1.jpg" alt="" style="height:100%;width:100%" id="img2">
+                                <img src="assets/img/showrim/1.jpg" alt="" style="height:40%;width:100%" id="img2">
                                 <p class="modal-desc">
                                   <button class="showchange_1" style="height:10%;width: 20%">이전</button>
                                    <button class="showchange_2" style="height:10%;width: 20%">다음</button>
@@ -249,7 +250,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th class="table-title" scope="col">Spring Framework 개인 블로그</th>
+                            <th class="table-title" scope="col">개인 공부 블로그 프로젝트</th>
                             <td>
                                 <div>공부 기록을 남길수 있는 반응형 웹 제작!</div>
                                 <div>
@@ -379,7 +380,7 @@
                                                         aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-                                                <img src="assets/img/award/1.jpg" style="height:100%;width:100%" id ="award_img1" alt="">
+                                                <img src="assets/img/award/1.jpg" style="height:50%;width:50%" id ="award_img1" alt="">
                                                 <p class="modal-desc">
                                                     <button class="awardchange_1" style="height:10%;width: 20%">이전
                                                     </button>
@@ -554,7 +555,7 @@
                             <td>
                                 다른 DBMS보다 오라클을 사용 한 이유는 데이터베이스가 여러 서버에서 공유 할 수 있다는
                                 거에 매력에 빠져 사용을 했습니다. 오라클을 통해 스스로 개인 DB를 구축 할 수 있고,오라클
-                                PL/SQL에 대한 기초 지식을 가지고 있습니다.
+                                PL/SQL에 대한 지식을 가지고 있습니다.
 
                             </td>
                             <td>
@@ -807,9 +808,8 @@
             </div>
         </div>
     </footer>
-    <!-- footer 끝  -->
-    </section>
-    <!-- Contact 끝  -->
+
+
 </main>
 <!-- Main 끝 -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -1024,6 +1024,33 @@
 
 
     }
+    let awardtextfun = () =>{
+        if (awardindex === 0)
+            $(".awardtextclass").text("회사 내에서 OCR AI 학습형 데이터 구축 사업을 진행한 사진 입니다." +
+                "사업을 시작 한 이유는 다른 부서에서 개인 정보 문제로 비 전자 기록물(이미지)들을 검토를 해야 했습니다." +
+                "하지만 사람이 직접 이미지를 볼 때 글자가 선명하게 나오지도 않고 분석 하는데 많은 시간이 걸렸습니다." +
+                "그래서 이 사업을 진행함으로써 글자들을 학습 시켜 이미지에 있는 흐릿한 글자들을 선명하게 인식하는 사업이였습니다." +
+                "제가 맡은 역활은 대량의 이미지 파일들을 분류하고 HWP 형태의 된 문서들을 JPG로 변환을 하여 담당자 분들에게 드리는 거였습니다." +
+                "사람이 직접 하기에는 시간이 걸리고 비용이 많이 들어 프로그램이 필요해 제가 직접 제작하고 분류와 변환을 하는 작업을 했습니다. ")
+        if (awardindex === 1)
+            $(".awardtextclass").text("분류를 하기전에 김해시청에 있는 목록들을 뽑아와야 했습니다. 쿼리의 결과 값을 엑셀 형태로 변환을 시키고" +
+                "PATH1 -> PATH2 로 분류를 하는 작업이 필요했습니다. ")
+        if (awardindex === 2)
+            $(".awardtextclass").text("Apache POI 라이브러리를 사용하여 엑셀 행을 읽고 PATH1 -> PATH2 로 분류하는 동작하고 있는 프로그램 화면입니다. " +
+                " 간단히 JAVA 표준라이브러리를 사용해서 CLI 형태로 제작을 하였습니다.")
+        if (awardindex === 3)
+            $(".awardtextclass").text("2차 분류는 각 부장님들이 알바 50명들에게 데이터를 주어야 했는데 많은 시간이 걸렸습니다. " +
+                "그래서 3000개씩 기관코드-년도-파일폴더-숫자의 형태로 맞춰 달라고 하셔서 프로그램을 제작을 했습니다." +
+                "하지만 부장님들은 IDA를 사용하실줄 모르셨고 GUI형태로 제작을 해야 했습니다. 그래서 JAVA Swing을 이용하여 파일을 분류 시켰습니다.")
+        if (awardindex === 4)
+            $(".awardtextclass").text("12월쯤 이미지가 부족한 사태가 왔습니다. 회사 내의 이사님이 HWP파일을 JPG로 변환 시키는 작업이 필요하다고 얘기 하셨습니다." +
+                " 아르바이트 하시는 분들이 해도 되는 작업이였지만 저에게 부탁을 하셨습니다. 그래서 HWP파일을 JPG로 변환하는 프로그램을 제작했는데," +
+                " 처음에는 JAVA로  HWP->XHTML->JPG,  HWP->PDF->JPG 작업으로 구상을 했지만 라이브러리가 존재 하지 않아 불가능 했습니다." +
+                " 구글링을 하다가 Python 모듈은 지원을 한다고 해서 HWP->XHTML->PDF->JPG 로 시도를 하였지만 사진의 이미지가 해상도가 떨어져" +
+                " 사용 할 수 없다고 하셨습니다. 그래서 고민 끝에 한글 스크립트 매크로로 하면 되겠다 생각을 해서 한글 스크립트를 분석을 하고 " +
+                " Python으로 옮겨 제작했습니다. 그 제 프로그램으로 약 1달가량 150만장정도의 이미지를 변환시켰습니다.")
+
+    }
     $(document).ready(function () {
         $(".change_1").click(function () {
             if (appindex !== 0)
@@ -1034,7 +1061,7 @@
 
         })
         $(".change_2").click(function () {
-            if (appindex !== 33)
+            if (appindex !== 31)
                 appindex++;
             apptextfun();
             $("#img").attr("src", apparray[appindex]);
@@ -1049,21 +1076,21 @@
             console.log(webarray[webindex]);
         })
         $(".webchange_2").click(function () {
-            if (webindex !== 14)
+            if (webindex !== 12)
                 webindex++;
             webtextfun();
             $("#img3").attr("src", webarray[webindex]);
             console.log(webarray[webindex]);
         })
         $(".showchange_1").click(function () {
-            if (showindex !== 1)
+            if (showindex !== 0)
                 showindex--;
             showtextfun();
             $("#img2").attr("src", showarray[showindex]);
             console.log(showarray[showindex]);
         })
         $(".showchange_2").click(function () {
-            if (showindex !== 5)
+            if (showindex !== 4)
                 showindex++;
             showtextfun();
             $("#img2").attr("src", showarray[showindex]);
@@ -1071,16 +1098,16 @@
         })
 
         $(".awardchange_1").click(function () {
-            if (awardindex !== 1)
+            if (awardindex !== 0)
                 awardindex--;
-
+            awardtextfun();
             $("#award_img1").attr("src", awardarray[awardindex]);
 
         })
         $(".awardchange_2").click(function () {
-            if (awardindex !== 5)
+            if (awardindex !== 4)
                 awardindex++;
-
+            awardtextfun();
             $("#award_img1").attr("src", awardarray[awardindex]);
             console.log(awardarray[awardindex]);
         })
