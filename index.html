@@ -944,11 +944,22 @@
             $(".textclass").text("로그인 후에 나오는 게시판 기능입니다. JSON을 parse 하여 리스트 형태로 불러 왔습니다." +
                 " 페이징 처리는 하지 않았습니다.");
         if (appindex === 29)
-            $(".textclass").text("글을 등록하는화면");
+            $(".textclass").text("글을 등록하는 화면");
         if (appindex === 30)
             $(".textclass").text("등록 완료");
         if (appindex === 31)
-            $(".textclass").text("php서버 상에서 JSON으로 뿌린 형태");
+            $(".textclass").text("JSON을 뿌린 화면");
+        if (appindex === 32)
+            $(".textclass").text("모든 기기가 호환이 될 수 없기에 유지 보수를 원할 할수 있도록 firebase 내에 analytics 를 사용하여" +
+                "어떤 사용자가 오류가 났는지 확인 할 수 있습니다.  ");
+        if (appindex === 33)
+            $(".textclass").text("Firebase내의 클라우드 메시지 기능입니다. 게으른 사람들을 위해 운동자극을 하기 위해 주기적으로 보낼수 있도록 제작을 했습니다.");
+        if (appindex === 34)
+            $(".textclass").text("보낼 메시지 기능 입력");
+        if (appindex === 35)
+            $(".textclass").text("클라우드 메시지 보낸 후");
+        if (appindex === 36)
+            $(".textclass").text("앱을 다운 받은 기기에 메시지 전송");
 
 
     }
@@ -1063,7 +1074,7 @@
 
         })
         $(".change_2").click(function () {
-            if (appindex !== 31)
+            if (appindex !== 35)
                 appindex++;
             apptextfun();
             $("#img").attr("src", apparray[appindex]);
