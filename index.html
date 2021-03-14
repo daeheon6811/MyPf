@@ -852,18 +852,18 @@
     for (let i = 1; i < 14; i++) {
         webarray.push("assets/img/web/" + i + ".png");
         let img2 = new Image();
-        img2.src = webarray[i];
+        img2.src = webarray[i-1];
     }
     for (let i = 1; i < 6; i++) {
         showarray.push("assets/img/showrim/" + i + ".jpg");
         let img3 = new Image();
-        img3.src = showarray[i];
+        img3.src = showarray[i-1];
     }
 
     for (let i = 1; i < 6; i++) {
         awardarray.push("assets/img/award/" + i + ".jpg");
         let img4 = new Image();
-        img4.src = awardarray[i];
+        img4.src = awardarray[i-1];
     }
 
     let init = () =>{
