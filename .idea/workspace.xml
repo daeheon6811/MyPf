@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2620948d-7d23-491b-99d8-e5e8069338d4" name="Default Changelist" comment="91">
-      <change afterPath="$PROJECT_DIR$/assets/img/app/32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/app/33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/app/34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/app/35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/vendor/jquery.fancybox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/vendor/jquery.fancybox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/vendor/jquery.fancybox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/vendor/jquery.fancybox.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -30,17 +30,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/styles/vendor" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wow11\pf\styles\vendor" />
       <recent name="C:\Users\wow11\pf\assets\img\app" />
       <recent name="C:\Users\wow11\pf\assets\img\award" />
       <recent name="C:\Users\wow11\pf\assets\img\logo" />
       <recent name="C:\Users\wow11\pf\assets\svg" />
-      <recent name="C:\Users\wow11\pf\assets\img\showrim" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\wow11\pf\assets\img\showrim" />
@@ -70,7 +70,8 @@
       <workItem from="1615512023941" duration="23251000" />
       <workItem from="1615544274652" duration="475000" />
       <workItem from="1615595751166" duration="6198000" />
-      <workItem from="1615602216347" duration="124000" />
+      <workItem from="1615602216347" duration="4169000" />
+      <workItem from="1615699214409" duration="2170000" />
     </task>
     <task id="LOCAL-00001" summary="ff">
       <created>1615444467403</created>
@@ -149,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615601250677</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="91">
+      <created>1615602358023</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1615602358023</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
