@@ -847,27 +847,28 @@
     let awardindex = 0;
     for (let i = 0; i < 37; i++) {
         apparray.push("assets/img/app/" + i + ".jpg");
+        let img = new Image();
+        img.src = apparray[i];
     }
     for (let i = 1; i < 14; i++) {
         webarray.push("assets/img/web/" + i + ".png");
+        let img = new Image();
+        img.src = webarray[i];
+
     }
     for (let i = 1; i < 6; i++) {
         showarray.push("assets/img/showrim/" + i + ".jpg");
+        let img = new Image();
+        img.src = showarray[i];
     }
     function preloading (imageArray) {
-        let n = imageArray.length; for
-        (let i = 0; i < n; i++)
-    {
-        let img = new Image(); img.src = imageArray[i]; }
-    }
-    preloading([
+        let n = imageArray.length;
+        for  (let i = 0; i < n; i++)
+     {
+        let img = new Image();
+        img.src = imageArray[i]; }
+     }
 
-        apparray[0],
-        apparray[1],
-        apparray[2],
-        apparray[3],
-        apparray[4],
-    ])
 
     for (let i = 1; i < 6; i++) {
         awardarray.push("assets/img/award/" + i + ".jpg");
