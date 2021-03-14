@@ -91,7 +91,7 @@
 
     <!-- Project 시작 -->
     <section class="container pt mt" id="project">
-        <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">MAIN Project</h2>
+        <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Project</h2>
         <div class="section-desc fonsiz-sm color-basic-opac letsp-sm ws-xs mt-2 mb-4">
             저는 프로젝트의 시작보다는 마무리에 집중합니다.
             한번 시작한 프로젝트는 혼자라도 반드시 마무리합니다.
@@ -147,7 +147,7 @@
                         <i class="bi bi-file-earmark-slides"></i>
                         <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="Modal1Label"
                              aria-hidden="true">
-                          <div class="modal-dialog" style=" max-width: 40%; width: 40%; display: table;" id="dia1">
+                          <div class="modal-dialog" style=" max-width: 20%; width: auto;  display: table;" id="dia1">
                             <div class="modal-content">
                               <div class="modal-header">
                                 <h5 class="modal-title" id="Modal1Label">개발 프로젝트 증빙 자료</h5>
@@ -156,7 +156,7 @@
                                         aria-label="Close"></button>
                               </div>
                               <div class="modal-body" style="height: 100%; width: 100%">
-                                <img src="assets/img/app/0.jpg" alt="" style="width: 50%; height: 70%" id="img">
+                                <img src="assets/img/app/0.jpg" alt="" style="width:100%; height: 30%" id="img">
                                 <p class="modal-desc">
                                   <button class="change_1" style="height:10%;width: 20%">이전</button>
                                    <button class="change_2" style="height:10%;width: 20%">다음</button>
@@ -339,7 +339,7 @@
         <div class="card shadow">
             <div class="card-body">
                 <div class="table-responsive">
-                    <table class="table table-hover align-middle">
+                    <table class="table borderless  table-hover align-middle">
                         <thead>
                         <tr class="fonsiz-sm fonwei-kr-md letsp-sm color-basic-opac text-center vertmid">
                             <th>대회</th>
@@ -371,6 +371,7 @@
                       <span class="text-muted" data-bs-toggle="modal" data-bs-target="#awardModal1">
                         <i class="bi bi-file-earmark-slides"></i>
                       </span>
+
                                 <!-- Modal 시작 -->
                                 <div class="modal fade" id="awardModal1" tabindex="-1"
                                      aria-labelledby="awardModal1Label"
@@ -384,7 +385,7 @@
                                             </div>
                                             <div class="modal-body" >
 
-                                                <img src="assets/img/award/1.jpg"  style="height:50%;width:50%"
+                                                <img src="assets/img/award/1.jpg"  style="height:50%;width:100%"
                                                      id="award_img1"  alt="">
 
                                                 <p class="modal-desc">
@@ -756,8 +757,8 @@
                     <div class="card-body">
                         <h4 class="card-title fonsiz-xl fonwei-en-xxl letsp-xxl text-upper text-center text-primary">
                             Utilities</h4>
-                        <div class="card-text fonsiz-sm fonwei-kr-sm letsp-sm mb-3 mt-3 px-2"><span class="ls-0">SqlLite,SqlMapper,DBeaver,GitHub</span>
-                            사용해보았습니다.. 더 많이 알수록 효율은 더 높아진다고 믿습니다.
+                        <div class="card-text fonsiz-sm fonwei-kr-sm letsp-sm mb-3 mt-3 px-2"><span class="ls-0">SqlLite,QueryBox,DBeaver,GitHub</span>
+                            사용해보았습니다. 더 많이 알수록 효율은 더 높아진다고 믿습니다.
                         </div>
                     </div>
                 </div>
@@ -785,8 +786,6 @@
 
     <!-- footer 시작  -->
     <footer class="container mt-auto mb-5">
-
-
         <div class="license-copy text-center">
             ⓒ 2021.
             <a class="fonwei-en-xxl" href="http://kijepark.com/">Kije’s LAB</a> All Rights Reserved
@@ -845,7 +844,7 @@
     let webindex = 0;
     let showindex = 0;
     let awardindex = 0;
-    for (let i = 0; i < 37; i++) {
+    for (let i = 0; i < 36; i++) {
         apparray.push("assets/img/app/" + i + ".jpg");
         let img = new Image();
         img.src = apparray[i];
@@ -854,24 +853,19 @@
         webarray.push("assets/img/web/" + i + ".png");
         let img = new Image();
         img.src = webarray[i];
-
     }
     for (let i = 1; i < 6; i++) {
         showarray.push("assets/img/showrim/" + i + ".jpg");
         let img = new Image();
         img.src = showarray[i];
     }
-    function preloading (imageArray) {
-        let n = imageArray.length;
-        for  (let i = 0; i < n; i++)
-     {
-        let img = new Image();
-        img.src = imageArray[i]; }
-     }
+
 
 
     for (let i = 1; i < 6; i++) {
         awardarray.push("assets/img/award/" + i + ".jpg");
+        let img = new Image();
+        img.src = awardarray[i];
     }
     $(".showtextclass").text("학교 실습으로 (구)버전 SHOWRIMS 솔루션을 (신)버전 SHOWRIMS 솔루션으로 개편했을때 제가 만든 기능들 입니다." +
         "전자정부 프레임워크, JSF,Primefaces프레임워크, Mybatis, Orcale, EgovEclisp 내의 SVN을  사용 했습니다 " +
@@ -891,6 +885,15 @@
         " 그런 후 해당 비밀번호를 Security 내의 기능  해쉬값 변경하여 로그인을 시도 합니다." +
         " 구글 로그인 ,페이스북 로그인은 미구현 상태 입니다." +
         ". ");
+    let size_check_fun = () =>{
+        if(appindex >= 32 && appindex != 35)
+        {
+        $('#dia1').width('1200');
+        $('#dia1').height('600');}
+        else{
+            $('#dia1').width('100%');
+            $('#dia1').height('50%');}
+    }
     let apptextfun = () => {
         if (appindex === 0)
             $(".textclass").text("    안녕하세요 PT Manager 시작 실행시 나오는 화면입니다.\n" +
@@ -980,11 +983,13 @@
             $(".textclass").text("등록 완료");
         if (appindex === 31)
             $(".textclass").text("JSON을 뿌린 화면");
-        if (appindex === 32)
+        if (appindex === 32) {
             $(".textclass").text("모든 기기가 호환이 될 수 없기에 유지 보수를 원할 할수 있도록 firebase 내에 analytics 를 사용하여" +
                 "어떤 사용자가 오류가 났는지 확인 할 수 있습니다.  ");
+        }
         if (appindex === 33)
             $(".textclass").text("Firebase내의 클라우드 메시지 기능입니다. 게으른 사람들을 위해 운동자극을 하기 위해 주기적으로 보낼수 있도록 제작을 했습니다.");
+
         if (appindex === 34)
             $(".textclass").text("보낼 메시지 기능 입력");
         if (appindex === 35)
@@ -1101,14 +1106,18 @@
 
             if (appindex !== 0)
                 appindex--;
+
+            size_check_fun();
             apptextfun();
             $("#img").attr("src", apparray[appindex]);
             console.log(apparray[appindex]);
 
         })
         $(".change_2").click(function () {
-            if (appindex !== 36)
+            if (appindex !== 35)
                 appindex++;
+
+            size_check_fun();
             apptextfun();
             $("#img").attr("src", apparray[appindex]);
             console.log(apparray[appindex]);
