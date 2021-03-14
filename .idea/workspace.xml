@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2620948d-7d23-491b-99d8-e5e8069338d4" name="Default Changelist" comment="91">
-      <change afterPath="$PROJECT_DIR$/styles/vendor/jquery.fancybox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/vendor/jquery.fancybox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/vendor/jquery.fancybox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/vendor/jquery.fancybox.min.js" afterDir="false" />
+    <list default="true" id="2620948d-7d23-491b-99d8-e5e8069338d4" name="Default Changelist" comment="92">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -71,7 +67,7 @@
       <workItem from="1615544274652" duration="475000" />
       <workItem from="1615595751166" duration="6198000" />
       <workItem from="1615602216347" duration="4169000" />
-      <workItem from="1615699214409" duration="2170000" />
+      <workItem from="1615699214409" duration="3018000" />
     </task>
     <task id="LOCAL-00001" summary="ff">
       <created>1615444467403</created>
@@ -157,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615602358023</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="92">
+      <created>1615706350027</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1615706350028</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +186,7 @@
     <MESSAGE value="update" />
     <MESSAGE value="90%" />
     <MESSAGE value="91" />
-    <option name="LAST_COMMIT_MESSAGE" value="91" />
+    <MESSAGE value="92" />
+    <option name="LAST_COMMIT_MESSAGE" value="92" />
   </component>
 </project>
