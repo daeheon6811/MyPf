@@ -339,8 +339,8 @@
         <div class="card shadow">
             <div class="card-body">
                 <div class="table-responsive">
-                    <table class="table borderless  table-hover align-middle">
-                        <thead>
+                    <table class="table borderless table-hover align-middle">
+                        <thead class="border-0 borderless" border="0">
                         <tr class="fonsiz-sm fonwei-kr-md letsp-sm color-basic-opac text-center vertmid">
                             <th>대회</th>
                             <th>세부 사항</th>
@@ -354,7 +354,7 @@
                             <td>
                                 <div>(주)쇼우테크 OCR 학습형 인공지능 사업 , 분류 프로그램 , HWP->JPG 자동 변환 프로그램 제작 및 구동</div>
                                 <div>
-                                    #OCR
+                                    #OCR #한국진흥원 #김해시청
                                 </div>
                                 <div>
                                     <span class="badge bg-primary">완료</span>
@@ -376,7 +376,7 @@
                                 <div class="modal fade" id="awardModal1" tabindex="-1"
                                      aria-labelledby="awardModal1Label"
                                      aria-hidden="true">
-                                    <div class="modal-dialog" style="max-width: 70%; width: auto; display: table;">
+                                    <div class="modal-dialog" style="max-width: 60%; width: auto; display: table;">
                                         <div class="modal-content">
                                             <div class="modal-header">
                                                 <h5 class="modal-title" id="awardModal1Label">증빙 자료</h5>
@@ -459,7 +459,8 @@
                             </td>
                             <td>
                                 <span>JAVA 표준 라이브러리을 활용하여 개발에 용이 하도록 할수 있습니다. 필요 하다면 디자인패턴을 이용하여 결합도가 적고 응집도가 높은 모듈들을 작성하여
-                                효율 성 있는 프로그램을 제작 할 수 있습니다. GUI의 형태인 Swing도 자유 자재로 제작이 가능하며 소켓,멀티 스레드 프로그래밍도 활용을 할수 있습니다.</span>
+                                효율 성 있는 프로그램을 제작 할 수 있습니다. GUI의 형태인 Swing도 자유 자재로 제작이 가능하며 소켓,멀티 스레드 프로그래밍도 활용 할 수 있습니다.
+                                새로 뜨고 있는 모던 JAVA에 관심이 많습니다</span>
                             </td>
                             <td>
                                 <div class="star-icon text-center">
@@ -481,7 +482,7 @@
                             <td>
                                 <span>스프링 단점중 개발 환경을 구성 하는게 힘들지만 개발 문서만 있으면 스스로 개발 환경을 구축 할 수 있습니다.
                                     반복적인 코드를 줄이고자 비지니스 로직에만 집중 할 수 있도록 AOP를 활용하고, DI를 활용하여 개발의 생산성을 증대 시킬수 있습니다.
-                                    어노테이션,XML</span>
+                                </span>
                             </td>
                             <td>
                                 <div class="star-icon text-center">
@@ -836,11 +837,13 @@
 
 </script>
 <script type="text/javascript">
+    let cppparray = new Array();
     let apparray = new Array();
     let webarray = new Array();
     let showarray = new Array();
     let awardarray = new Array();
     let appindex = 0;
+    let cppparray = 0;
     let webindex = 0;
     let showindex = 0;
     let awardindex = 0;
@@ -848,6 +851,11 @@
         apparray.push("assets/img/app/" + i + ".jpg");
         let img = new Image();
         img.src = apparray[i];
+    }
+    for (let i = 1; i < 7; i++) {
+        cppparray.push("assets/img/cppp/" + i + ".jpg");
+        let img = new Image();
+        img.src = cppparray[i-1];
     }
     for (let i = 1; i < 14; i++) {
         webarray.push("assets/img/web/" + i + ".png");
