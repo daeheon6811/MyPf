@@ -37,7 +37,7 @@
       type: 'doughnut',
       options,
       data: {
-        labels: ['JavaScript ES6', 'React', 'HTML5', 'CSS3'],
+        labels: ['JavaScript', 'React', 'HTML5', 'CSS3'],
         datasets: [{
           data: [50, 40, 7, 3],
           borderColor,
@@ -54,9 +54,9 @@
       type: 'doughnut',
       options,
       data: {
-        labels: ['Node.js', 'Express', 'Koa', 'Java', 'Spring'],
+        labels: ['Spring', 'Nodejs', 'ASP.NET', 'PHP', 'DJANGO'],
         datasets: [{
-          data: [30, 20, 10, 20, 20],
+          data: [50, 30, 10, 10, 10],
           borderColor,
           backgroundColor,
           hoverBackgroundColor,
@@ -71,7 +71,7 @@
       type: 'doughnut',
       options,
       data: {
-        labels: ['MongoDB', 'MySQL', 'PostgreSQL'],
+        labels: ['ORACLE', 'MySQL', 'SQLLITE'],
         datasets: [{
           data: [40, 34, 27],
           borderColor,
@@ -88,9 +88,9 @@
       type: 'doughnut',
       options,
       data: {
-        labels: ['GitHub', 'Asana', 'Trello', 'Redmine', 'Adobe Xd'],
+        labels: ['GitHub', 'SqlGATE', 'QueryBox', 'DBeaver'],
         datasets: [{
-          data: [40, 15, 15, 20, 10],
+          data: [40, 20, 20, 20],
           borderColor,
           backgroundColor,
           hoverBackgroundColor,
