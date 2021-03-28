@@ -109,6 +109,75 @@
                         </thead>
                         <tbody>
                         <tr>
+                            <th class="table-title" scope="col">ASP.NET 은행 모방 홈페이지</th>
+                            <td>
+                                <div>C# ASP.NET 은행 홈페이지를 모방 해본 팀 프로젝트!</div>
+                                <div>
+                                    #금융 #WEB
+                                </div>
+                                <div>
+                                    <span class="badge bg-inprogress">완료</span>
+                                    <span class="badge bg-dark">C#</span>
+                                    <span class="badge bg-dark">ASP.NET</span>
+                                    <span class="badge bg-dark">sqlserver</span>
+                                    <span class="badge bg-dark">express</span>
+
+
+                                </div>
+                            </td>
+                            <td class="text-center">
+                                <div class="">(2017-10.15 ~ 2017-12.1)</div>
+                                <div class="progress">
+
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                         style="width: 100%">
+                                        <span class="progress-bar">개발 완료</span>
+                                    </div>
+                                </div>
+                                <div class="progress-desc">(팀 프로젝트)2인 협업 개발</div>
+
+
+                            </td>
+                            <td class="text-center">
+                      <span class="text-muted" data-bs-toggle="modal" data-bs-target="#Modal0">
+                        <i class="bi bi-file-earmark-slides"></i>
+                        <div class="modal fade" id="Modal0" tabindex="-1" aria-labelledby="Modal0Label"
+                             aria-hidden="true">
+                          <div class="modal-dialog" style=" max-width: 80%; width: auto;  display: table;">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="Modal0Label">개발 프로젝트 증빙 자료</h5>
+
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body" style="height: 100%; width: 100%">
+                                <img src="assets/img/bank/1.jpg" alt="" style="width:100%; height: 30%" id="img0">
+                                <p class="modal-desc">
+                                  <button class="bankchange_1" style="height:10%;width: 20%">이전</button>
+                                   <button class="bankchange_2" style="height:10%;width: 20%">다음</button>
+                                </p>
+                                <p class="modal-desc">
+                                    <span class="bankclass" style="color:black;">
+                                  C# ASP.NET 1학년때 제작해본 은행을 모방한 홈페이지 입니다.
+                                  </span>
+                                </p>
+
+                              </div>
+                              <div class="modal-footer">
+                                      <a href=" https://play.google.com/store/apps/details?id=com.daeheon.fitness_assistant_project">
+                                         github 이동
+                                      </a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </span>
+                            </td>
+                        </tr>
+
+                        <tr>
                             <th class="table-title" scope="col">Android 운동/건강 관리 App</th>
                             <td>
                                 <div>짐,홈, 트레이닝 집에서! , 인바디 상세한 측정, GPS 무료 칼로리측정 , 소통을 위한 게시판!</div>
@@ -322,7 +391,7 @@
                     </table>
                 </div>
                 <div class="table-desc fonsiz-xs fonwei-kr-sm letsp-sm text-center color-basic-opac">프로젝트들은 최근 개발한 순으로
-                    정렬되어 있습니다
+                    정렬되어 있습니다. (추가 정보 하단의 버튼을 누르시면 프로젝트가 보입니다.)
                 </div>
             </div>
         </div>
@@ -835,14 +904,23 @@
 
 </script>
 <script type="text/javascript">
+    let bankarray = new Array();
     let apparray = new Array();
     let webarray = new Array();
     let showarray = new Array();
     let awardarray = new Array();
+    let bankindex = 0;
     let appindex = 0;
     let webindex = 0;
     let showindex = 0;
     let awardindex = 0;
+
+    for (let i = 1; i < 33; i++) {
+        bankarray.push("assets/img/bank/" + i + ".jpg");
+        let img = new Image();
+        img.src = bankarray[i-1];
+    }
+
     for (let i = 0; i < 36; i++) {
         apparray.push("assets/img/app/" + i + ".jpg");
         let img = new Image();
@@ -1121,6 +1199,19 @@
 
     }
     $(document).ready(function () {
+
+        $(".bankchange_1").click(function () {
+            if (bankindex !== 0)
+                bankindex--;
+            $("#img0").attr("src", bankarray[bankindex]);
+            console.log(bankarray[bankindex]);
+        })
+        $(".bankchange_2").click(function () {
+            if (bankindex !== 35)
+                bankindex++;
+            $("#img0").attr("src", bankarray[bankindex]);
+            console.log(bankarray[bankindex]);
+        })
 
         $(".change_1").click(function () {
 
