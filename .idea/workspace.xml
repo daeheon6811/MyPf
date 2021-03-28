@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2620948d-7d23-491b-99d8-e5e8069338d4" name="Default Changelist" comment="999">
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bank/9.jpg" afterDir="false" />
+    <list default="true" id="2620948d-7d23-491b-99d8-e5e8069338d4" name="Default Changelist" comment="ASP 프로젝트 추가 업데이트">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -107,7 +75,7 @@
       <workItem from="1615868549224" duration="213000" />
       <workItem from="1615878417184" duration="946000" />
       <workItem from="1615932605381" duration="651000" />
-      <workItem from="1616921639947" duration="1459000" />
+      <workItem from="1616921639947" duration="1698000" />
     </task>
     <task id="LOCAL-00001" summary="ff">
       <created>1615444467403</created>
@@ -340,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615932658056</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="ASP 프로젝트 추가 업데이트">
+      <created>1616923139124</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1616923139124</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,6 +347,7 @@
     <MESSAGE value="d" />
     <MESSAGE value="99" />
     <MESSAGE value="999" />
-    <option name="LAST_COMMIT_MESSAGE" value="999" />
+    <MESSAGE value="ASP 프로젝트 추가 업데이트" />
+    <option name="LAST_COMMIT_MESSAGE" value="ASP 프로젝트 추가 업데이트" />
   </component>
 </project>
