@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2620948d-7d23-491b-99d8-e5e8069338d4" name="Default Changelist" comment="ASP 프로젝트 추가 업데이트">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +74,7 @@
       <workItem from="1615868549224" duration="213000" />
       <workItem from="1615878417184" duration="946000" />
       <workItem from="1615932605381" duration="651000" />
-      <workItem from="1616921639947" duration="1698000" />
+      <workItem from="1616921639947" duration="2106000" />
     </task>
     <task id="LOCAL-00001" summary="ff">
       <created>1615444467403</created>
@@ -315,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616923139124</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="ASP 프로젝트 추가 업데이트">
+      <created>1616923359313</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1616923359313</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
