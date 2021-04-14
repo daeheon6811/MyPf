@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2620948d-7d23-491b-99d8-e5e8069338d4" name="Default Changelist" comment="최적화">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
-    <list id="2d87ee2c-4c13-4965-b496-5426ae77ccc0" name="Revert &quot;수정&quot;" comment="Revert &quot;수정&quot;&#10;&#10;This reverts commit 1c1961e8">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
+    <list id="2d87ee2c-4c13-4965-b496-5426ae77ccc0" name="Revert &quot;수정&quot;" comment="Revert &quot;수정&quot;&#10;&#10;This reverts commit 1c1961e8" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,14 +85,8 @@
       <workItem from="1618049744569" duration="1303000" />
       <workItem from="1618131457603" duration="1512000" />
       <workItem from="1618361234929" duration="2917000" />
-      <workItem from="1618397262415" duration="3209000" />
-    </task>
-    <task id="LOCAL-00010" summary="90%">
-      <created>1615600799186</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1615600799186</updated>
+      <workItem from="1618397262415" duration="4272000" />
+      <workItem from="1618432934948" duration="107000" />
     </task>
     <task id="LOCAL-00011" summary="91">
       <created>1615601250677</created>
@@ -431,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618399010053</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="최적화">
+      <created>1618400689155</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1618400689155</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
