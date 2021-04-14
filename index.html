@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/theme.css" type="text/css"/>
     <link rel="stylesheet" href="css/theme-dark.css" media="(prefers-color-scheme: dark)" type="text/css">
 
-    <script src ="https://cdn.jsdelivr.net/gh/wow1186/MyPf@master/assets/img/"></script>
+    <script src ="https://cdn.jsdelivr.net/gh/wow1186/MyPf@master/assets/img/app/0.jpg"></script>
 </head>
 <body>
 <!-- Header 시작 -->
@@ -916,7 +916,7 @@
     let webindex = 0;
     let showindex = 0;
     let awardindex = 0;
-
+    let img = new Image();
     /*
     for (let i = 1; i < 33; i++) {
         bankarray.push("assets/img/bank/" + i + ".jpg");
@@ -926,24 +926,21 @@
 
     for (let i = 0; i < 36; i++) {
         apparray.push("assets/img/app/" + i + ".jpg");
-        let img = new Image();
+
         img.src = apparray[i];
     }
     for (let i = 1; i < 14; i++) {
         webarray.push("assets/img/web/" + i + ".png");
-        let img2 = new Image();
-        img2.src = webarray[i-1];
+        img.src = webarray[i-1];
     }
     for (let i = 1; i < 6; i++) {
         showarray.push("assets/img/showrim/" + i + ".jpg");
-        let img3 = new Image();
-        img3.src = showarray[i-1];
+        img.src = showarray[i-1];
     }
 
     for (let i = 1; i < 6; i++) {
         awardarray.push("assets/img/award/" + i + ".jpg");
-        let img4 = new Image();
-        img4.src = awardarray[i-1];
+        img.src = awardarray[i-1];
     }
 
     let init = () =>{
